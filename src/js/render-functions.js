@@ -74,7 +74,7 @@ function createMarkup(arr) {
         .join("");
 }
 
-function showLoader() {
+export function showLoader() {
     const loader = document.querySelector(".loader");
     if (loader) {
         loader.style.display = "block";
